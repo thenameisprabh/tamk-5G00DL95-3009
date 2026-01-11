@@ -1,0 +1,20 @@
+# Author: Your Name <your.email@example.com>
+# Date: 2026-01-31
+# Exercise: 1.2 Vim config example
+# Notes: Lines starting with '#' are comments.
+
+set ruler                    " Show line/column numbers at bottom
+set nojoinspaces             " Don't join lines with extra space
+set showcmd                  " Show partial commands in status bar
+set showmatch                " Highlight matching brackets
+set incsearch                " Search as you type
+set ignorecase               " Ignore case in search
+set smartcase                " Case-sensitive when uppercase used
+set nobackup                 " Don't save backup files
+set autoindent               " Auto-indent new lines
+set shiftwidth=4             " Tab width = 4 spaces
+set softtabstop=4            " Insert 4 spaces when pressing Tab
+set paste                    " Disable auto-indent in paste mode
+set nolist                   " Don't show tabs/spaces as special characters
+
+# End of file

@@ -1,0 +1,17 @@
+# Author: Your Name <your.email@example.com>
+# Date: 2026-01-31
+# Exercise: 1.3 Vim edit commands
+# Notes: Lines starting with '#' are comments.
+
+Beginning of line        = Press '0' (zero)
+End of line              = Press '$'
+Deleting a word          = Press 'dw' (delete word)
+Deleting a line          = Press 'dd' (delete line)
+Deleting a paragraph     = Press 'dap' (delete a paragraph)
+Go to beginning of file  = Press 'gg'
+Go to end of file        = Press 'G'
+Copying line(s)          = Press 'yy' then 'p' (copy then paste)
+Copying a paragraph      = Press 'yap' then 'p' (copy paragraph then paste)
+Turn on/off line numbers = Press ':set number!' (toggle line numbers)
+
+# End of file

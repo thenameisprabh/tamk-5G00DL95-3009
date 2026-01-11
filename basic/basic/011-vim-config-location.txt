@@ -1,0 +1,9 @@
+# Author: Prabhjot 
+singh <prabhrathore2200@gmail.com>
+# Date: 2026-01-11
+# Exercise: 1.1 Vim config location
+# Notes: Lines starting with '#' are comments.
+
+~/.vimrc
+
+# End of file
