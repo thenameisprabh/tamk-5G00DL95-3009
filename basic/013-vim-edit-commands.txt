@@ -1,4 +1,4 @@
-# Author: Prabhjot Singh <prabhrathore2200@gmail.com>
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
 # Date: 2026-01-11
 # Exercise: 1.3 Vim edit commands
 # Notes: Lines starting with '#' are comments.
