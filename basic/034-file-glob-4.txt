@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "3.4 File glob 4"
+
+ls *.[jJ][pP][gG]
+
+# End of file

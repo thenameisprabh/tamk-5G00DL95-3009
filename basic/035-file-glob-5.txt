@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "3.5 File glob 5"
+
+ls | grep -E '[^a-zA-Z0-9_.-]'
+
+# End of file
