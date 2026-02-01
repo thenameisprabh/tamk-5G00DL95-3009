@@ -1,0 +1,9 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "4.1 Redirection 1"
+
+mkdir ~/tmp
+date > date.txt
+
+# End of file

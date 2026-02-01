@@ -1,0 +1,11 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "4.4 Redirection 4"
+
+Commands A and B both save the error message to a separate file. 
+In both cases, "stdout" (1>) is sent to "file.tmp" and "stderr" (2>) is sent to "error.log". 
+Command C fails because it tries to use "qwerty" as "stdin" (<), but the file does not exist, 
+preventing the command from even starting correctly.
+
+# End of file

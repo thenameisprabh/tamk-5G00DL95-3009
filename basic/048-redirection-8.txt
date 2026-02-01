@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "4.8 Redirection 8"
+
+cat < file > file2
+
+# End of file

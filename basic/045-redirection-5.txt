@@ -1,0 +1,10 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "4.5 Redirection 5"
+
+This command uses "stdin" redirection. The "<" symbol tells the shell to open "/var/log/dpkg.log" 
+and feed its content into the "stdin" of the "less" command. The shell handles the file 
+opening before "less" starts, so "less" reads the stream instead of opening the file itself.
+
+# End of file

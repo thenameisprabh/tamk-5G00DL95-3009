@@ -1,0 +1,9 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "4.2 Redirection 2"
+
+mkdir ~/tmp
+qwerty 2> error.log
+
+# End of file

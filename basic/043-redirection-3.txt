@@ -1,0 +1,11 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "4.3 Redirection 3"
+
+The file "2" is empty because "2>" is a redirection operator for "stderr" (file descriptor 2). 
+In the command "echo 2 2> 2", the shell prints the character "2" to "stdout", but redirects 
+any error messages ("stderr") into a file named "2". Since the echo command succeeded, 
+no error was generated, leaving the file "2" created but empty.
+
+# End of file

@@ -1,0 +1,12 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "4.6 Redirection 6"
+
+The command "ls < ls > ls" results in the file "ls" being truncated (emptied) by the "> ls" 
+redirection before the "ls" command actually executes. The shell prepares the output 
+redirection first, which clears the file. The input redirection "< ls" then reads from 
+the now-empty file, and the "ls" command simply lists the current directory contents 
+into that same file.
+
+# End of file

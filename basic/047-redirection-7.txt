@@ -1,0 +1,11 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "4.7 Redirection 7"
+
+This uses a "Here Document" (<< EOF). The shell takes the lines following the command 
+until it hits "EOF" and sends them to the "stdin" of the "cat" command. "cat" also 
+tries to read "file" as an argument. The resulting output is then redirected 
+from "stdout" (1>) into "file2".
+
+# End of file
