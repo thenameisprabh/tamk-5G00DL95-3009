@@ -1,0 +1,9 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "2.4 The cp command 2"
+
+mkdir ~/tmp
+cp -r ~/tmp ~/tmp.backup
+
+# End of file

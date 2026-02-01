@@ -1,0 +1,15 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "2.3 The cp command 1"
+
+-v
+explain what is being done
+-u
+copy only when the SOURCE file is newer than the destination file or when the destination file is missing
+-p
+preserve the specified attributes (default: mode,ownership,timestamps), if possible additional attributes: context, links, xattr, all
+-r
+copy directories recursively
+
+# End of file

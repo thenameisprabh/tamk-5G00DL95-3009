@@ -1,0 +1,10 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "2.1 Create directory structure"
+
+mkdir ~/tmp
+cd ~/tmp
+mkdir -p some/dir1 some/dir2/doc1 some/dir2/doc2/test/more some/dir3/html
+
+# End of file

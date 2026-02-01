@@ -1,0 +1,16 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "2.2 Move files"
+
+mkdir ~/tmp
+cd ~/tmp
+mkdir -p dir1/dir2/here
+touch dir1/1.txt dir1/2.txt dir1/dir2/1.tmp dir1/dir2/2.tmp dir1/dir2/here/1.lst dir1/dir2/here/2.lst
+mv dir1/dir2/here/1.lst dir1/
+mv dir1/1.txt dir1/dir2/
+mv dir1/dir2/here/2.lst dir1/dir2/
+mv dir1/dir2/1.tmp dir1/dir2/here/
+mv dir1/dir2/2.tmp dir1/dir2/here/
+
+# End of file
