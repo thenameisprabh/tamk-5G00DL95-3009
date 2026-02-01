@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "12.4 Find 4"
+
+find ~/tmp -type d -name "*t*a*"
+
+# End of file

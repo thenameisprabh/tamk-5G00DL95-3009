@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "12.5 Find 5"
+
+find ~/tmp -mtime +1
+
+# End of file
