@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "11.3 Sed 3"
+
+sed '/Ike/s/[0-9]\{3\}-[0-9]\{4\}/234-0123/' names.txt
+
+# End of file

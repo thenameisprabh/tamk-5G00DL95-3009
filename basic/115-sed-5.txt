@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "11.5 Sed 5"
+
+sed 's/^\([A-Z][a-z]*\)  *\([A-Z][a-z]*\)/\2 \1/' names.txt
+
+# End of file

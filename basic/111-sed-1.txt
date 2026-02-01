@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "11.1 Sed 1"
+
+sed 's/  */ /g' names.txt
+
+# End of file
