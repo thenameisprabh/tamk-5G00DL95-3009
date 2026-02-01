@@ -1,0 +1,15 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "6.1 Meta character 1"
+
+Step-by-step process:
+1. The shell identifies the $(...) syntax, which triggers command substitution.
+2. Inside the parentheses, "ls -la" executes first, listing all files (including hidden ones) in long format.
+3. The output of "ls" is piped (|) into "wc -l", which counts the number of lines in that output.
+4. The result of that count (a single number) replaces the $(...) block.
+5. Finally, the "echo" command prints the full string with the included number.
+
+The output will be: "The Result of this command is X ", where X is the number of entries in the current directory plus the total line and the "." and ".." entries.
+
+# End of file
