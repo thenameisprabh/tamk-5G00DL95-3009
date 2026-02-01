@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "10.1 Grep 1"
+
+grep -E "[[:space:]]4-" data.txt
+
+# End of file
