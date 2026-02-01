@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "8.6 Manipulate data 5"
+
+paste 1.txt 2.txt
+
+# End of file
