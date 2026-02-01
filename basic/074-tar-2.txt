@@ -1,0 +1,19 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "7.4 Tar 2"
+
+tar -tf package.tar.gz
+
+tmp/
+tmp/dir1/
+tmp/dir1/1.lst
+tmp/dir1/2.txt
+tmp/dir2/
+tmp/dir2/1.txt
+tmp/dir2/2.lst
+tmp/dir2/here/
+tmp/dir2/here/1.tmp
+tmp/dir2/here/2.tmp
+
+# End of file

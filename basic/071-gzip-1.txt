@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "7.1 Gzip 1"
+
+gzip -9 file.txt
+
+# End of file

@@ -1,0 +1,8 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "7.5 Tar 3"
+
+tar -xzf package.tar.gz -C /tmp
+
+# End of file
