@@ -3,7 +3,6 @@
 #
 # Answer to exercise "4.1 Redirection 1"
 
-mkdir ~/tmp
-date > date.txt
+cd ~/tmp && date > date.txt
 
 # End of file
