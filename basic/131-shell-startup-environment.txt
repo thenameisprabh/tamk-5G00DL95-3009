@@ -1,0 +1,12 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "13.1 The Shell startup environment"
+
+1. Two environment variables:
+   - HISTSIZE: This variable determines the number of commands to remember in the command history list. To set it for the current session, use: export HISTSIZE=1000
+   - EDITOR: This variable specifies the default text editor for various system utilities. To set it, use: export EDITOR=vim
+
+2. To store these settings permanently, they must be added to the shell startup file in the home directory. For Bash, this is usually "~/.bashrc". For Zsh (Mac), it is "~/.zshrc". You append the "export" commands to the end of the file so they are loaded every time a new shell starts.
+
+# End of file

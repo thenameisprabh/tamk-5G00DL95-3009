@@ -1,0 +1,18 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "13.2 The Shell prompt"
+
+To set the Bash prompt permanently, you must modify the "PS1" variable in the "~/.bashrc" file. The specific escape sequences required for the requested format are:
+- \h : Host name
+- \! : Command history number
+- \t : Current time (HH:MM:SS)
+- \w : Current working directory (relative to home)
+
+To achieve the format "[host history time] directory$", add the following line to your ~/.bashrc:
+
+export PS1="[\h \! \t] \w$ "
+
+After saving the file, run "source ~/.bashrc" to apply the changes immediately.
+
+# End of file
