@@ -1,0 +1,10 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "5.2 Pipe 2"
+
+This command prints the string "1 2 3" and pipes it into the "cut" command. 
+The "cut" command uses a space as a delimiter (-d" ") and extracts the second 
+field (-f2). The final output displayed on the terminal will be the number "2".
+
+# End of file

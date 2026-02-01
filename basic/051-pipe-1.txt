@@ -1,0 +1,17 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "5.1 Pipe 1"
+
+Numbers 1 and 4 do not make sense in practice.
+
+1. "cat file | ls > file": This is illogical because "ls" does not read from "stdin". 
+The content of "file" is piped to "ls", but "ls" ignores it and simply lists 
+directory contents, overwriting the original "file" in the process.
+
+4. "ls | less > cat file": This syntax is broken. The ">" operator expects a 
+single filename to write to. Here, the shell would try to write to a file named 
+"cat" and then pass "file" as an extra argument to "less", which is not how 
+redirection is intended to work.
+
+# End of file
