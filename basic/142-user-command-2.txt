@@ -1,0 +1,10 @@
+# Author: Prabhjot Singh <prabhjot.singh@tuni.fi>
+# Date: 2026-02-01
+#
+# Answer to exercise "14.2 User command 2"
+
+_lsf() {
+    ls -p | grep -v /
+}
+
+# End of file
