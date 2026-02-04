@@ -3,6 +3,6 @@
 #
 # Answer to exercise "4.1 Redirection 1"
 
-/usr/bin/date > date.txt
+/bin/date > ./date.txt
 
 # End of file
